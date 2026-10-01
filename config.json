@@ -1,0 +1,42 @@
+{
+  "manual": {
+    "button": "鼠标左键",
+    "type": "单击",
+    "interval": "501",
+    "jitter": "0",
+    "hold": "10",
+    "count_mode": "infinite",
+    "count": "2",
+    "pos_mode": "fixed",
+    "x": "1891",
+    "y": "882",
+    "delay": "0"
+  },
+  "smart": {
+    "trigger": "匹配目标颜色时触发",
+    "sample": "区域平均色",
+    "color": "#E8F0FF",
+    "tolerance": "20",
+    "ratio": "30",
+    "check": "100",
+    "action": "burst",
+    "burst": "1",
+    "cooldown": "300",
+    "max_trig": "0",
+    "pos": "监测区域中心",
+    "x": "0",
+    "y": "0",
+    "region": [
+      1687,
+      824,
+      1724,
+      863
+    ]
+  },
+  "hotkeys": {
+    "toggle": "F6",
+    "stop": "F12",
+    "pick_point": "F7",
+    "pick_color": "F8"
+  }
+}
